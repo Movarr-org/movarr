@@ -1,0 +1,7 @@
+{
+  "name": "@movarr/config",
+  "private": true,
+  "dependencies": {
+    "config": "^3.3.10"
+  }
+}

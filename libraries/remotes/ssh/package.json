@@ -1,0 +1,16 @@
+{
+  "name": "@movarr/remotes-ssh",
+  "private": true,
+  "scripts": {
+    "start": "yarn build && node dist/index.js",
+    "build": "rimraf dist; tsc"
+  },
+  "dependencies": {
+    "node-ssh": "^13.1.0"
+  },
+  "peerDependencies": {
+    "@movarr/typescript": "workspace:^",
+    "rimraf": "*",
+    "tsc": "*"
+  }
+}

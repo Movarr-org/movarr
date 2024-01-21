@@ -1,0 +1,13 @@
+{
+  "name": "movarr",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "libraries/**/*",
+    "utils/*"
+  ],
+  "packageManager": "yarn@4.0.2",
+  "devDependencies": {
+    "rimraf": "^5.0.5"
+  }
+}
