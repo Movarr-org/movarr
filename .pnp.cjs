@@ -85,7 +85,10 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./libraries/remotes/ssh/",\
         "packageDependencies": [\
           ["@movarr/remotes-ssh", "workspace:libraries/remotes/ssh"],\
-          ["node-ssh", "npm:13.1.0"]\
+          ["@movarr/typescript", "workspace:utils/typescript"],\
+          ["node-ssh", "npm:13.1.0"],\
+          ["rimraf", "npm:5.0.5"],\
+          ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
         "linkType": "SOFT"\
       }]\

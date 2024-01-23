@@ -1,3 +1,7 @@
 {
-  "extends": "@movarr/typescript/tsconfig.json"
+  "extends": "@movarr/typescript/tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist"
+  }
 }

@@ -8,9 +8,9 @@
   "dependencies": {
     "node-ssh": "^13.1.0"
   },
-  "peerDependencies": {
+  "devDependencies": {
     "@movarr/typescript": "workspace:^",
     "rimraf": "*",
-    "tsc": "*"
+    "typescript": "*"
   }
 }
