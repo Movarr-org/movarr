@@ -1,16 +1,18 @@
 {
-  "name": "@movarr/remotes-ssh",
+  "name": "@movarr/logger",
   "private": true,
   "scripts": {
     "start": "yarn build && node dist/index.js",
     "build": "rimraf dist; tsc"
   },
+  "main": "dist/logger.js",
   "dependencies": {
-    "@movarr/logger": "workspace:^",
-    "node-ssh": "^13.1.0"
+    "pino": "8.17.2"
   },
   "devDependencies": {
     "@movarr/typescript": "workspace:^",
+    "@types/node": "^20.11.5",
+    "pino-pretty": "10.3.1",
     "rimraf": "*",
     "typescript": "*"
   }
